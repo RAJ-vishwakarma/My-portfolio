@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,287 +8,339 @@
     <title>My Portfolio</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
     <div class="black">
-<header>
-<nav class="navBar">
-    
-   
-<ul class="navMenu">
-    <li class="navList"><a href="#black" class="navList navList1">HOME</a></li>
-    <li class="navList"><a href="#about" class="navList navList2">ABOUT</a></li>
-    <li class="navList"><a href="#skills" class="navList navList3">SKILLS</a></li>
-    <li class="navList"><a href="#contact-page" class="navList navList3">CONTACT</a></li>
-</ul>
-</nav>
-
-<!-- hamburger -->
+        <header>
+            <nav class="navBar">
 
 
-    <div id="menuToggle">
-      <!--
+                <ul class="navMenu">
+                    <li class="navList"><a href="#black" class="navList navList1">HOME</a></li>
+                    <li class="navList"><a href="#about" class="navList navList2">ABOUT</a></li>
+                    <li class="navList"><a href="#skills" class="navList navList3">SKILLS</a></li>
+                    <li class="navList"><a href="#contact-page" class="navList navList3">CONTACT</a></li>
+                </ul>
+            </nav>
+
+            <!-- hamburger -->
+
+
+            <div id="menuToggle">
+                <!--
       A fake / hidden checkbox is used as click reciever,
       so you can use the :checked selector on it.
       -->
-      <input type="checkbox" />
-      
-      <!--
+                <input type="checkbox" />
+
+                <!--
       Some spans to act as a hamburger.
       
       They are acting like a real hamburger,
       not that McDonalds stuff.
       -->
-      <span></span>
-      <span></span>
-      <span></span>
-      
-      <!--
+                <span></span>
+                <span></span>
+                <span></span>
+
+                <!--
       Too bad the menu has to be inside of the button
       but hey, it's pure CSS magic.
       -->
-      <ul id="menu">
-        <a href="#black"><li>HOME</li></a>
-        <a href="#about"><li>ABOUT</li></a>
-        <a href="#skills"><li>SKILLS</li></a>
-        <a href="#contact-page"><li>CONTACT</li></a>
-      </ul>
+                <ul id="menu">
+                    <a href="#black">
+                        <li>HOME</li>
+                    </a>
+                    <a href="#about">
+                        <li>ABOUT</li>
+                    </a>
+                    <a href="#skills">
+                        <li>SKILLS</li>
+                    </a>
+                    <a href="#contact-page">
+                        <li>CONTACT</li>
+                    </a>
+                </ul>
+            </div>
+
+
+            <!-- hamburger end -->
+
+        </header>
+
+        <div class="intro">
+            <p class="intro1">Hey, I'm</p>
+            <div class="wrapper">
+                <h1 class="intro2 typewriter">RAJ VISHWAKARMA</h1>
+            </div>
+            <p class="intro3">And this is my portfolio website</p>
+
+            <div id="btn" onclick="openPopup()"><button id="btn-grad">MORE</button></div>
+            <!-- <h1 class="intro2">Vishwakarma</h1> -->
+
+            <div id="popup1" class="overlay">
+
+
+                <div id="popup">
+                    <h2>About me</h2>
+                    <a id="close" href="#" onclick="closePopup()">&times;</a>
+                    <div class="content">
+                        Hey, my name is Raj Vishwakarma and I'm 18 years old. I completed my schooling in 2019 and my
+                        junior college in 2021.Currently I'm in my second year of graduation in Bachelor of science in
+                        information technology.
+                        I started learning to code about 2 years ago, initially I started with HTML and CSS and now
+                        currently focusing more on programming languages like Javascript and Python.
+
+
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="scroll-animation">
+            <a href="#about"><img src="Scroll-Down-white.gif" alt=""></a>
+        </div>
+
     </div>
-  
 
-<!-- hamburger end -->
+    <div id="about">
 
-</header>
+        <div class="gradient-underline"></div>
 
-<div class="intro">
-<p class="intro1">Hey, I'm</p>
-<div class="wrapper"><h1 class="intro2 typewriter">RAJ VISHWAKARMA</h1></div>
-<p class="intro3">And this is my portfolio website</p>
+        <h1 class="about-text">ABOUT</h1>
 
-<div id="btn" onclick="openPopup()"><button id="btn-grad">MORE</button></div>
-<!-- <h1 class="intro2">Vishwakarma</h1> -->
 
-<div id="popup1" class="overlay">
 
-    
-	<div id="popup">
-		<h2>About me</h2>
-		<a id="close" href="#" onclick="closePopup()" >&times;</a>
-		<div class="content">
-            Hey, my name is Raj Vishwakarma and I'm 18 years old. I completed my schooling in 2019 and my junior college in 2021.Currently I'm in my second year of graduation in Bachelor of science in information technology.
-            I started learning to code about 2 years ago, initially I started with HTML and CSS and now currently focusing more on programming languages like Javascript and Python.
-            
-			
-		</div>
-	</div>
 
-</div>
 
-</div>
+        <div class="main">
 
-<div class="scroll-animation">
-   <a href="#about"><img src="Scroll-Down-white.gif" alt=""></a>
-</div>
+            <h1 class="pretext">I LOVE TO</h1>
+            <div class="outer-box">
 
-</div>
+                <div class="box">
+                    <div class="letter">C</div>
+                </div>
+                <div class="box">
+                    <div class="letter">O</div>
+                </div>
+                <div class="box">
+                    <div class="letter">D</div>
+                </div>
+                <div class="box">
+                    <div class="letter">E</div>
+                </div>
+            </div>
+        </div>
 
-<div id="about">
-    
+
+
+        <h1 class="pretext2">I LOVE</h1>
+
+        <div class="outer-box2">
+
+            <div class="box2">
+                <div class="letter2">G</div>
+            </div>
+            <div class="box2">
+                <div class="letter2">A</div>
+            </div>
+            <div class="box2">
+                <div class="letter2">M</div>
+            </div>
+            <div class="box2">
+                <div class="letter2">I</div>
+            </div>
+            <div class="box2">
+                <div class="letter2">N</div>
+            </div>
+            <div class="box2">
+                <div class="letter2">G</div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div id="skills">
+
+        <div class="gradient-underline"></div>
+        <h1>SKILLS</h1>
+        <p class="instruct">Hover to read</p>
+
+        <div class="CARDS">
+            <!-- first card -->
+            <div class="card">
+
+                <div class="circle"> </div>
+                <div class="content">
+                    <h2>HTML</h1>
+                        <p>I started learning HTML during my 12th boards vacation through youtube, while learning i made
+                            a website with HTML and CSS based on Avengers theme, yeah they are my favourite.</p>
+                </div>
+
+                <img src="html-image.png" alt="">
+
+            </div>
+
+
+            <!-- second card -->
+            <div class="card1">
+
+                <div class="circle1"> </div>
+                <div class="content1">
+                    <h2>CSS</h1>
+                        <p>I was learning CSS simultaneously with HTML, CSS thought me that we can any stuff very
+                            beautifull if we have a creative mindset.</p>
+                </div>
+
+                <img src="css-logo.png" alt="">
+
+            </div>
+
+        </div>
+
+
+        <!-- third card -->
+
+        <div class="CARDS-SECOND">
+            <div class="card2">
+
+                <div class="circle2"> </div>
+                <div class="content2">
+                    <h2>JAVASCRIPT</h1>
+                        <p>Few months back I started my JAVASCRIPT journey, I,m constently trying to develop my
+                            knowledge and skills more and more everyday.</p>
+                </div>
+
+                <img src="javascript-logo.png" alt="">
+
+            </div>
+
+            <!-- fourth card -->
+            <div class="card3">
+
+                <div class="circle3"> </div>
+                <div class="content3">
+                    <h2>VIDEO EDITING</h1>
+                        <p>I,m editing videos from quite a long time. I just love to try different things everytime i
+                            edit a video, by experimenting it makes my skills more polished.</p>
+                </div>
+
+                <img src="videoediting.png" alt="">
+
+            </div>
+        </div>
+    </div>
+
     <div class="gradient-underline"></div>
+    <div id="projects">
 
-    <h1 class="about-text">ABOUT</h1>
-  
-
-    
-   
-
-    <div class="main">
-        
-        <h1 class="pretext">I LOVE TO</h1>
-    <div class="outer-box">
-        
-        <div class="box">
-            <div class="letter">C</div>
-        </div>
-        <div class="box">
-            <div class="letter">O</div>
-        </div>
-        <div class="box">
-            <div class="letter">D</div>
-        </div>
-        <div class="box">
-            <div class="letter">E</div>
-        </div>
-    </div>
-    </div>
+        <h1>PROJECTS</h1>
 
 
 
-    <h1 class="pretext2">I LOVE</h1>
+        <div class="row1">
+            <img src="marvel.jpg" alt="marvel image">
+            <div class="paragraph1">
 
-    <div class="outer-box2">
-        
-        <div class="box2">
-            <div class="letter2">G</div>
+                <a href="https://raj-vishwakarma.github.io/marvel-project/">
+                    <h2>MARVEL WEBSITE</h2>
+                </a>
+                <p> This was my first website created with pure HTML and CSS. In this website some the superheroes form
+                    marvel have been showcased.</p>
+
+                <button id="smallBtn-grad"
+                    onclick="window.location.href='https://raj-vishwakarma.github.io/marvel-project/';">Go To
+                    Page</button>
+            </div>
         </div>
-        <div class="box2">
-            <div class="letter2">A</div>
+
+        <div class="row1">
+            <img src="dice.jpg" alt="marvel image">
+            <div class="paragraph1">
+
+                <a href="https://raj-vishwakarma.github.io/marvel-project/">
+                    <h2>DICE GAME</h2>
+                </a>
+                <p>It is a small game based on dice where two dice are rolled and the dice with more no. wins.</p>
+
+
+                <button id="smallBtn-grad"
+                    onclick="window.location.href='https://raj-vishwakarma.github.io/marvel-project/';">Go To
+                    Page</button>
+            </div>
         </div>
-        <div class="box2">
-            <div class="letter2">M</div>
-        </div>
-        <div class="box2">
-            <div class="letter2">I</div>
-        </div>
-        <div class="box2">
-            <div class="letter2">N</div>
-        </div>
-        <div class="box2">
-            <div class="letter2">G</div>
-        </div>
-      
+
+
+
     </div>
 
-</div>
 
-<div id="skills">
 
     <div class="gradient-underline"></div>
-    <h1>SKILLS</h1>
-    <p class="instruct">Hover to read</p>
+    <div id="contact-page">
 
-<div class="CARDS">
-    <!-- first card -->
-    <div class="card">
 
-        <div class="circle"> </div>
-        <div class="content">
-            <h2>HTML</h1>
-                <p>I started learning HTML during my 12th boards vacation through youtube, while learning i made a website with HTML and CSS based on Avengers theme, yeah they are my favourite.</p>
+
+        <div class="contact">
+
+            <div class="contact-us">
+                <h1>Get In Touch</h1>
+                <img src="phone-call.png" alt="" class="phone-icon">
+                <p class="phone-para">+91-000000000</p><br>
+                <img src="email.png" alt="" class="email-icon">
+                <p class="email-para">vishwakarmsrv@gmail.com</p>
+                <img src="linkedin.png" alt="" class="linkedin-icon">
+                <p class="linkedin-para">Raj Vishwakarma</p>
+            </div>
+
+
+
+
+            <div class="form">
+
+                <h1>Contact Me</h1>
+
+                <form action="" method="POST" onsubmit="return collectFormData(event)">
+                    <div class="form-element">
+
+                        <input type="text" name="" id="name" placeholder="Name">
+                    </div>
+
+                    <div class="form-element">
+
+                        <input type="Email" name="" id="Email" placeholder="E-mail">
+                    </div>
+                    <div class="form-element">
+
+                        <textarea name="message" id="Message" cols="30" rows="10"
+                            placeholder="Your message here"></textarea>
+                    </div>
+
+                    <div class="form-element">
+                        <button type="submit" class="label submitbtn" id="">SUBMIT</button>
+                    </div>
+                </form>
+
+            </div>
         </div>
-
-        <img src="html-image.png" alt="">
-
     </div>
+    <footer>
 
-
-<!-- second card -->
-     <div class="card1"> 
-
-        <div class="circle1"> </div>
-        <div class="content1">
-            <h2>CSS</h1>
-                <p>I was learning CSS simultaneously with HTML, CSS thought me that we can any stuff very beautifull if we have a creative mindset.</p>
+        <div class="FOOTER">
+            <a href="https://github.com/RAJ-vishwakarma"> <img src="github.png" alt=""></a>
+            <a href="https://www.linkedin.com/in/raj-vishwakarma-3764aa220/"> <img src="linkedin (1).png" alt=""></a>
+            <a href=""> <img src="facebook.png" alt=""></a>
+            <a href=""> <img src="instagram.png" alt=""></a>
         </div>
-
-        <img src="css-logo.png" alt="">
-
-    </div>
-
-</div>
-
-
-<!-- third card -->
-
-<div class="CARDS-SECOND">
-<div class="card2">
-
-    <div class="circle2"> </div>
-    <div class="content2">
-        <h2>JAVASCRIPT</h1>
-            <p>Few months back I started my JAVASCRIPT journey, I,m constently trying to develop my knowledge and skills more and more everyday.</p>
-    </div>
-
-    <img src="javascript-logo.png" alt="">
-
-</div>
-
-<!-- fourth card -->
-<div class="card3">
-
-    <div class="circle3"> </div>
-    <div class="content3">
-        <h2>VIDEO EDITING</h1>
-            <p>I,m editing videos from quite a long time. I just love to try different things everytime i edit a video, by experimenting it makes my skills more polished.</p>
-    </div>
-
-    <img src="videoediting.png" alt="">
-
-</div>
-</div>
-</div>
-
-<div class="gradient-underline"></div>
-<div id="contact-page">
-
-
-    
-<div class="contact">
-
-    <div class="contact-us">
-        <h1>Get In Touch</h1>
-        <img src="phone-call.png" alt="" class="phone-icon"><p class="phone-para">+91-000000000</p><br>
-        <img src="email.png" alt="" class="email-icon"><p class="email-para">vishwakarmsrv@gmail.com</p>
-        <img src="linkedin.png" alt="" class="linkedin-icon"><p class="linkedin-para">Raj Vishwakarma</p>
-    </div>
-
-
-
-
- <div class="form">
-
-    <h1>Contact Me</h1>
-
-<form action="">
-
-
-
-    <div class="form-element">
-        
-        <input type="text" name="" id="name" placeholder="Name">
-    </div>
-
-    <div class="form-element">
-        
-        <input type="Email" name="" id="Email" placeholder="E-mail" >
-    </div>
-
-
-                        <div class="form-element">
-   
-                           <textarea name="message" id="" cols="30" rows="10" placeholder="Your message here" ></textarea>
-                        </div>
-
-                        <div class="form-element">
-                        <button type="submit" class="label submitbtn">SUBMIT</button>
-                        </div>
-
-
-                    
-            
-            </form>
-
-</div>
-</div>
-</div>
-
-<footer>
-
-<div class="FOOTER">
-   <a href="https://github.com/RAJ-vishwakarma"> <img src="github.png" alt=""></a> 
-   <a href="https://www.linkedin.com/in/raj-vishwakarma-3764aa220/"> <img src="linkedin (1).png" alt=""></a>
-   <a href=""> <img src="facebook.png" alt=""></a>
-   <a href=""> <img src="instagram.png" alt=""></a>
-</div>
-
-</footer>
-
-
-
-
-
-<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <script src="portfolio.js"></script>
-   
 </body>
+
 </html>
